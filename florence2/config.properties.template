@@ -1,0 +1,20 @@
+[azure]
+# Get from Azure Portal -> OpenAI Resource -> Keys and Endpoint
+api_key=YOUR_AZURE_OPENAI_API_KEY
+endpoint=YOUR_AZURE_ENDPOINT
+deployment=YOUR_DEPLOYMENT_NAME
+version=2024-05-01-preview
+
+[aws]
+# Get from AWS Console -> IAM -> Access Keys
+access_key_id=YOUR_AWS_ACCESS_KEY
+secret_access_key=YOUR_AWS_SECRET_KEY
+region=us-east-1
+
+[google]
+# Get from Google AI Studio: https://makersuite.google.com/app/apikey
+api_key=YOUR_GOOGLE_API_KEY
+
+[pytesseract]
+# Path to Tesseract executable (update after installation)
+file_path=C:\Program Files\Tesseract-OCR\tesseract.exe
